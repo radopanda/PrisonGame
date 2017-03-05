@@ -13,6 +13,16 @@
 		5CD462321AF2086100550977 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CD462311AF2086100550977 /* Images.xcassets */; };
 		5CD462351AF2086100550977 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CD462331AF2086100550977 /* LaunchScreen.xib */; };
 		5CD462411AF2086100550977 /* NaviTest1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD462401AF2086100550977 /* NaviTest1Tests.swift */; };
+		5CD4624B1AF2090200550977 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD4624A1AF2090200550977 /* ViewController2.swift */; };
+		5CD462511AF2222500550977 /* hojo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD4624E1AF2222500550977 /* hojo.png */; };
+		5CD462521AF2222500550977 /* sugiki.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD4624F1AF2222500550977 /* sugiki.png */; };
+		5CD462531AF2222500550977 /* yuki.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD462501AF2222500550977 /* yuki.png */; };
+		5CD462571AF227F800550977 /* tamaki3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CD462541AF227F800550977 /* tamaki3.jpg */; };
+		5CD462581AF227F800550977 /* tamaki2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CD462551AF227F800550977 /* tamaki2.jpg */; };
+		5CD462591AF227F800550977 /* tamaki1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CD462561AF227F800550977 /* tamaki1.jpg */; };
+		5CD5A1301B284FC400F2DBCF /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CD5A12F1B284FC400F2DBCF /* image1.jpg */; };
+		5CD5A1321B284FD300F2DBCF /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CD5A1311B284FD300F2DBCF /* image2.jpg */; };
+		5CD5A1341B284FDE00F2DBCF /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CD5A1331B284FDE00F2DBCF /* image3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,16 @@
 		5CD4623A1AF2086100550977 /* NaviTest1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaviTest1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CD4623F1AF2086100550977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CD462401AF2086100550977 /* NaviTest1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviTest1Tests.swift; sourceTree = "<group>"; };
+		5CD4624A1AF2090200550977 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		5CD4624E1AF2222500550977 /* hojo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hojo.png; sourceTree = "<group>"; };
+		5CD4624F1AF2222500550977 /* sugiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sugiki.png; sourceTree = "<group>"; };
+		5CD462501AF2222500550977 /* yuki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuki.png; sourceTree = "<group>"; };
+		5CD462541AF227F800550977 /* tamaki3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tamaki3.jpg; sourceTree = "<group>"; };
+		5CD462551AF227F800550977 /* tamaki2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tamaki2.jpg; sourceTree = "<group>"; };
+		5CD462561AF227F800550977 /* tamaki1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tamaki1.jpg; sourceTree = "<group>"; };
+		5CD5A12F1B284FC400F2DBCF /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		5CD5A1311B284FD300F2DBCF /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		5CD5A1331B284FDE00F2DBCF /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +103,7 @@
 				5CD462311AF2086100550977 /* Images.xcassets */,
 				5CD462331AF2086100550977 /* LaunchScreen.xib */,
 				5CD462281AF2086100550977 /* Supporting Files */,
+				5CD4624A1AF2090200550977 /* ViewController2.swift */,
 			);
 			path = NaviTest1;
 			sourceTree = "<group>";
@@ -90,6 +111,15 @@
 		5CD462281AF2086100550977 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5CD5A1331B284FDE00F2DBCF /* image3.jpg */,
+				5CD5A1311B284FD300F2DBCF /* image2.jpg */,
+				5CD5A12F1B284FC400F2DBCF /* image1.jpg */,
+				5CD462541AF227F800550977 /* tamaki3.jpg */,
+				5CD462551AF227F800550977 /* tamaki2.jpg */,
+				5CD462561AF227F800550977 /* tamaki1.jpg */,
+				5CD4624E1AF2222500550977 /* hojo.png */,
+				5CD4624F1AF2222500550977 /* sugiki.png */,
+				5CD462501AF2222500550977 /* yuki.png */,
 				5CD462291AF2086100550977 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -156,14 +186,17 @@
 		5CD4621D1AF2086100550977 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Naoto Kobayashi";
 				TargetAttributes = {
 					5CD462241AF2086100550977 = {
 						CreatedOnToolsVersion = 6.3;
+						LastSwiftMigration = 0820;
 					};
 					5CD462391AF2086100550977 = {
 						CreatedOnToolsVersion = 6.3;
+						LastSwiftMigration = 0820;
 						TestTargetID = 5CD462241AF2086100550977;
 					};
 				};
@@ -192,9 +225,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CD5A1321B284FD300F2DBCF /* image2.jpg in Resources */,
 				5CD462301AF2086100550977 /* Main.storyboard in Resources */,
+				5CD5A1301B284FC400F2DBCF /* image1.jpg in Resources */,
+				5CD5A1341B284FDE00F2DBCF /* image3.jpg in Resources */,
 				5CD462351AF2086100550977 /* LaunchScreen.xib in Resources */,
+				5CD462521AF2222500550977 /* sugiki.png in Resources */,
+				5CD462581AF227F800550977 /* tamaki2.jpg in Resources */,
 				5CD462321AF2086100550977 /* Images.xcassets in Resources */,
+				5CD462571AF227F800550977 /* tamaki3.jpg in Resources */,
+				5CD462511AF2222500550977 /* hojo.png in Resources */,
+				5CD462591AF227F800550977 /* tamaki1.jpg in Resources */,
+				5CD462531AF2222500550977 /* yuki.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +256,7 @@
 			files = (
 				5CD4622D1AF2086100550977 /* ViewController.swift in Sources */,
 				5CD4622B1AF2086100550977 /* AppDelegate.swift in Sources */,
+				5CD4624B1AF2090200550977 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +386,7 @@
 				INFOPLIST_FILE = NaviTest1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -353,6 +397,7 @@
 				INFOPLIST_FILE = NaviTest1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -371,6 +416,7 @@
 				INFOPLIST_FILE = NaviTest1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaviTest1.app/NaviTest1";
 			};
 			name = Debug;
@@ -386,6 +432,7 @@
 				INFOPLIST_FILE = NaviTest1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaviTest1.app/NaviTest1";
 			};
 			name = Release;
@@ -409,6 +456,7 @@
 				5CD462461AF2086100550977 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CD462471AF2086100550977 /* Build configuration list for PBXNativeTarget "NaviTest1Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +465,7 @@
 				5CD462491AF2086100550977 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
