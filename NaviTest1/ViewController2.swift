@@ -8,15 +8,21 @@
 
 import UIKit
 
-class ViewController2: UIViewController{
+class ViewController2: UIViewController,UIGestureRecognizerDelegate{
     
     var scrollView: UIScrollView!
     //var pageImagesArr = ["sugiki.png","hojo.png","yuki.png"];
     //var pageImagesArr = ["tamaki1.jpg","tamaki2.jpg","tamaki3.jpg"];
     var pageImagesArr = ["image1.jpg","image2.jpg","image3.jpg"];
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        // シングルタップ
+
+        let tapGesture:UITapGestureRecognizer = UITapGestureRecognizer(target:self, action: #selector(ViewController2.tap(_:)))
+        // デリゲートをセット
+        tapGesture.delegate = self;
         
         let width = self.view.frame.maxX, height = self.view.frame.maxY
         let pageSize = self.pageImagesArr.count;
@@ -36,24 +42,15 @@ class ViewController2: UIViewController{
 
         }
         self.view.addSubview(scrollView)
-        
+        self.view.addGestureRecognizer(tapGesture)
         // Do any additional setup after loading the view.
     }
 
-//    override func touchesBegan(touches: NSSet, withEvent event: UIEvent){
-//        let touch = touches.anyObject()! as UITouch
-//        let location = touch.locationInView(view)
-//    }
+    // タップイベント.
+    func tap(_ sender: UITapGestureRecognizer){
 
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        
+        print("タップ")
     }
-    */
 
 }
